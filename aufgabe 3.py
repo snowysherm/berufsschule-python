@@ -1,4 +1,4 @@
-geldbetrag = float(input("Geldbetrag:"))
-zinssatz = float(input("Zinssatz:"))
-jahreszins = geldbetrag / zinssatz * 12
-print(jahreszins)
+geldbetrag = float(input("Geldbetrag: "))
+zinssatz = float(input("Zinssatz: "))
+jahreszins = geldbetrag / 100 * zinssatz * 12
+print(f"Jahreszins: {jahreszins}")
