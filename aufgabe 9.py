@@ -1,5 +1,5 @@
-preis = float(input("Preis:"))
-gezahlt = float(input("Gezahlt:"))
+preis = float(input("Preis: "))
+gezahlt = float(input("Gezahlt: "))
 
 if (gezahlt < preis):
     print("zu wenig gezahlt")
