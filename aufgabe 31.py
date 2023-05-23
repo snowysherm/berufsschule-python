@@ -1,7 +1,7 @@
-print("1. Addition")
-print("2. Subtraktion")
-print("3. Multiplikation")
-print("4. Divison")
+print("1. Addition"
+      "\n2. Subtraktion"
+      "\n3. Multiplikation"
+      "\n4. Division")
 
 aufgabe = int(input("Wahl: "))
 
