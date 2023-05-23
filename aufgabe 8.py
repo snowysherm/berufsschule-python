@@ -1,6 +1,6 @@
-geldbetrag = float(input("Geldbetrag:"))
-rabatt = float(input("Rabatt:"))
-rabatt2 = geldbetrag / rabatt
+geldbetrag = float(input("Geldbetrag: "))
+rabatt = float(input("Rabatt in %: "))
+rabatt2 = geldbetrag / 100 * rabatt
 betrag_nach_abzug = geldbetrag - rabatt2
 
 if (rabatt > 100):
