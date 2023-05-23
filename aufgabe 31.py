@@ -22,7 +22,8 @@ for i in range(1, 11):
         ergebnis = zahl1 * zahl2
     elif aufgabe == 4:
         print(f"{zahl1} : {zahl2}")
-        ergebnis = zahl1 / zahl2
+        ergebnis = int(zahl1 / zahl2)
+        print(ergebnis)
     u_input = int(input("Ergebnis: "))
     if u_input == ergebnis:
         counter += 1
